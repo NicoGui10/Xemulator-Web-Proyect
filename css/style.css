@@ -124,12 +124,16 @@ h5 {
     left: 0;
     bottom: 14px;
     transition: 0.4s ease-out;
+    
 }
 
 .nav__hover:hover::before {
     width: 100%;
 }
-
+.nav__tittle ul li a:hover{
+    color: #9B0B34;
+    
+}
 /* barra de navegacion + logo*/
 
 /*background*/
@@ -512,6 +516,7 @@ h5 {
 
 /* Footer*/
 
+
 /*Tablet index*/
 @media screen and (min-width:768px) {
     .jueimg {
@@ -770,5 +775,6 @@ h5 {
         justify-content: space-around;
 
     }
+
 
 }
