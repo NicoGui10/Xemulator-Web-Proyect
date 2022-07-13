@@ -68,7 +68,7 @@ h5 {
     color: rgb(255, 255, 255);
     background-color: #9B0B34;
     font-size: 14px;
-    border-color: unset;
+    border: transparent;
 }
 .button__A:hover{
     background-color: #d60540;
