@@ -59,35 +59,29 @@ h5 {
 /*Textos*/
 
 /* Declaraciones primarias*/
-
-.button__1 {
+/*Botones*/
+.button__1{
     text-align: center;
-    padding-top: 1rem;
 }
-
-.button__A {
-    position: relative;
-    background: #9B0B34;
-    display: inline-block;
-    padding: 12px 12px;
-    color: #ffffff;
-    letter-spacing: 3px;
-    font-size: 12px;
-    text-decoration: none;
-    overflow: hidden;
-    transition: 0.2s;
-    border-radius: 70%;
+.button__A{
+    border-radius: 50%;
+    color: rgb(255, 255, 255);
+    background-color: #9B0B34;
+    font-size: 14px;
+    border-color: unset;
 }
+.button__A:hover{
+    background-color: #d60540;
+    border-color: unset;
 
-.button__A:hover {
-    background: #9B0B34;
-    box-shadow: 0 0 10px #9B0B34, 0 0 40px #9B0B34, 0 0 80px #9B0B34;
+
 }
 
 .container__principal {
     margin: auto;
     max-width: 1400px;
 }
+/*Botones*/
 
 /* Declaraciones primarias*/
 
@@ -212,8 +206,6 @@ h5 {
 /*Index*/
 .background__emulatorsindex {
     background-color: #F2F2F2;
-    display: grid;
-    justify-items: center;
     margin: 25px;
 }
 
@@ -222,18 +214,34 @@ h5 {
     margin: 5px;
 }
 
+.cointainer__Emuladores__index{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.Tittle__juegimg{
+    text-align: center;
+    font-style: italic;
+}
 
 .background__juegosindex {
     background-color: #F2F2F2;
-    display: grid;
-    justify-items: center;
     margin: 25px;
 }
+.cointainer__juegos__index{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
 
 .jueimg {
     width: 100px;
     margin: 5px;
 }
+
+
 
 /*Index*/
 
@@ -339,10 +347,17 @@ h5 {
     background-color: #F2F2F2;
 
 }
+.Sistemas__container{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap; 
+    
+}
 
 .sistemas__op img {
     height: 80px;
-    padding: 5px;
+    padding-left: 8px;
+    padding-top: 5px;
 }
 
 
@@ -678,6 +693,7 @@ h5 {
         width: 80%;
         height: 80%;
     }
+   
 }
 
 @media screen and (min-width:992px) {
@@ -779,6 +795,13 @@ h5 {
         justify-content: space-around;
 
     }
-
+    .button__1 {
+        text-align: center;
+        padding-top: 15px;
+        
+        
+    }
+  
+    
 
 }
