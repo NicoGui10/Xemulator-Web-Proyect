@@ -3,11 +3,9 @@
     padding: 0;
     font-family: 'Roboto', sans-serif;
     box-sizing: border-box;
-
 }
 
-/*Titulos*/
-
+/*Titulos y textos*/
 h3 {
     font-size: 2rem;
     text-align: center;
@@ -34,9 +32,27 @@ h5 {
     font-size: 25px;
 }
 
-/*Titulos*/
+.text__carrousel p {
+    width: 100%;
+    height: 45px;
+    position: absolute;
+    bottom: 7px;
+    padding-left: 70%;
+    color: #040404;
+    font-size: 10px;
+    font-family: 'Gloria Hallelujah', cursive;
+    animation: flipInX;
+    animation-duration: 2s;
+}
 
-/*Textos*/
+.text__carrousel2 {
+    display: none;
+}
+
+.text__carrousel2:hover {
+    color: #9B0B34;
+}
+
 .Textinfo {
     font-size: 13px;
     text-align: justify;
@@ -56,35 +72,42 @@ h5 {
     height: 100%;
 }
 
-/*Textos*/
+.tittle__games {
+    color: #ece1e1;
+    font-size: 20px;
+    padding: 6%;
+}
 
-/* Declaraciones primarias*/
+.Tittle__juegimg {
+    text-align: center;
+    font-style: italic;
+}
+
+/*Titulos y textos*/
+
 /*Botones*/
-.button__1{
+.button__1 {
     text-align: center;
 }
-.button__A{
+
+.button__A {
     border-radius: 50%;
     color: rgb(255, 255, 255);
     background-color: #9B0B34;
     font-size: 14px;
     border: transparent;
 }
-.button__A:hover{
+
+.button__A:hover {
     background-color: #d60540;
     border-color: unset;
-
-
 }
 
+/*Botones*/
 .container__principal {
     margin: auto;
     max-width: 1400px;
 }
-/*Botones*/
-
-/* Declaraciones primarias*/
-
 
 /* barra de navegacion + logo*/
 .backgruond__stily {
@@ -118,50 +141,26 @@ h5 {
     left: 0;
     bottom: 14px;
     transition: 0.4s ease-out;
-    
+
 }
 
 .nav__hover:hover::before {
     width: 100%;
 }
-.nav__tittle ul li a:hover{
+
+.nav__tittle ul li a:hover {
     color: #9B0B34;
-    
+
 }
+
 /* barra de navegacion + logo*/
 
-/*background*/
+/*background + logos img*/
 .imgbackgroud {
     width: 100%;
     height: auto;
 }
 
-/* cambios para el carrousel + background + TITULOS EN BACKGROUD */
-.text__h p {
-    width: 100%;
-    height: 45px;
-    position: absolute;
-    bottom: 7px;
-    padding-left: 70%;
-    color: #040404;
-    font-size: 10px;
-    font-family: 'Gloria Hallelujah', cursive;
-    animation: flipInX;
-    animation-duration: 2s;
-}
-
-.text__h2 {
-    display: none;
-}
-
-.text__h2:hover{
-    color: #9B0B34;
-    
-}
-
-
-
-/* cambios para el carrousel + background */
 .imglogoinfo1 {
     display: none;
 }
@@ -178,7 +177,6 @@ h5 {
     background-size: 100%;
 
 }
-
 
 .background__contact {
     background-color: rgba(38, 38, 46, 1);
@@ -198,22 +196,18 @@ h5 {
     margin: 5px;
 }
 
-.cointainer__Emuladores__index{
+.cointainer__Emuladores__index {
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
-}
-
-.Tittle__juegimg{
-    text-align: center;
-    font-style: italic;
 }
 
 .background__juegosindex {
     background-color: #F2F2F2;
     margin: 25px;
 }
-.cointainer__juegos__index{
+
+.cointainer__juegos__index {
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
@@ -224,9 +218,6 @@ h5 {
     width: 100px;
     margin: 5px;
 }
-
-
-
 /*Index*/
 
 /*Contact.html*/
@@ -321,9 +312,6 @@ h5 {
 
 /*Contact.html*/
 
-
-
-
 /* Sistemas operativos Donwload*/
 .sistemas__op {
     display: grid;
@@ -331,11 +319,12 @@ h5 {
     background-color: #F2F2F2;
 
 }
-.Sistemas__container{
+
+.Sistemas__container {
     display: flex;
     justify-content: center;
-    flex-wrap: wrap; 
-    
+    flex-wrap: wrap;
+
 }
 
 .sistemas__op img {
@@ -344,22 +333,15 @@ h5 {
     padding-top: 5px;
 }
 
-
-
 /* Sistemas operativos Donwload*/
 
 
-/* games*/
+/*Games.Html*/
 .Games__body {
     background-color: #222222;
 
 }
 
-.tittle__games {
-    color: #ece1e1;
-    font-size: 20px;
-    padding: 6%;
-}
 
 .container__gamecom {
     padding-right: 3rem;
@@ -452,8 +434,7 @@ h5 {
     background-color: black;
 }
 
-/* games*/
-
+/*Games.Html*/
 
 /* Guia instalacion Download*/
 .Video__tuto {
@@ -464,7 +445,6 @@ h5 {
 /* Guia instalacion Download*/
 
 /*Interface*/
-
 .tittle__interface {
     padding-top: 20px;
 }
@@ -510,17 +490,16 @@ h5 {
 
 /*Interface*/
 
+
 /* Footer*/
 .footerbeta img {
     box-sizing: border-box;
     width: 100%;
-
 }
 
 /* Footer*/
 
-
-/*Tablet index*/
+/*Media Querys*/
 @media screen and (min-width:768px) {
     .jueimg {
         width: 150px;
@@ -544,15 +523,12 @@ h5 {
 
 }
 
-/*Tablet index/
 
-/*desktop index*/
 @media screen and (min-width:1231px) {
 
 
     .imgbackgroud {
         height: 45rem;
-
     }
 
     .logo__1 {
@@ -641,9 +617,7 @@ h5 {
     }
 }
 
-/*desktop index*/
 
-/*querys Download*/
 @media screen and (min-width:638px) {
     .text__description__download {
         padding-top: 27%;
@@ -677,7 +651,7 @@ h5 {
         width: 80%;
         height: 80%;
     }
-   
+
 }
 
 @media screen and (min-width:992px) {
@@ -695,7 +669,6 @@ h5 {
     .info__caract {
         font-size: 15px;
     }
-
 
 }
 
@@ -779,13 +752,11 @@ h5 {
         justify-content: space-around;
 
     }
+
     .button__1 {
         text-align: center;
         padding-top: 15px;
-        
-        
     }
-  
-    
-
 }
+
+/*Media Querys*/
