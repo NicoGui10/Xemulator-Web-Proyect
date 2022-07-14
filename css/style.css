@@ -584,7 +584,7 @@ h5 {
         padding: 25px;
     }
 
-    .text__h p {
+    .text__carrousel p{
         width: 100%;
         height: 45px;
         position: absolute;
@@ -597,7 +597,7 @@ h5 {
         animation-duration: 2s;
     }
 
-    .text__h2 {
+    .text__carrousel2 {
         display: block;
         width: 100%;
         height: 45px;
@@ -609,7 +609,7 @@ h5 {
     }
 
 
-    .text__h2 P {
+    .text__carrousel2 P {
         font-size: 22px;
         font-family: 'Gloria Hallelujah', cursive;
         animation: backInRight;
