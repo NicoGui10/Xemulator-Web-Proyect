@@ -1,762 +1,552 @@
+@charset "UTF-8";
+@import url(_var.scss);
 * {
-    margin: 0;
-    padding: 0;
-    font-family: 'Roboto', sans-serif;
-    box-sizing: border-box;
-}
+  margin: 0;
+  padding: 0;
+  font-family: 'Roboto', sans-serif;
+  box-sizing: border-box; }
 
 /*Titulos y textos*/
 h3 {
-    font-size: 2rem;
-    text-align: center;
-}
+  font-size: 2rem;
+  text-align: center; }
 
 h4 {
-    padding-top: 10%;
-    text-align: center;
-    font-size: 1.2rem;
-}
+  padding-top: 10%;
+  text-align: center;
+  font-size: 1.2rem; }
 
 .titulo__sistemas {
-    padding-bottom: 15px;
-}
+  padding-bottom: 15px; }
 
 h5 {
-    font-size: 25px;
-    padding-top: 35px;
-    padding-bottom: 35px;
-    text-align: center;
-}
+  font-size: 25px;
+  padding-top: 35px;
+  padding-bottom: 35px;
+  text-align: center; }
 
 #Guiain {
-    font-size: 25px;
-}
+  font-size: 25px; }
 
 .text__carrousel p {
-    width: 100%;
-    height: 45px;
-    position: absolute;
-    bottom: 7px;
-    padding-left: 70%;
-    color: #040404;
-    font-size: 10px;
-    font-family: 'Gloria Hallelujah', cursive;
-    animation: flipInX;
-    animation-duration: 2s;
-}
+  width: 100%;
+  height: 45px;
+  position: absolute;
+  bottom: 7px;
+  padding-left: 70%;
+  color: #040404;
+  font-size: 10px;
+  font-family: 'Gloria Hallelujah', cursive;
+  animation: flipInX;
+  animation-duration: 2s; }
 
 .text__carrousel2 {
-    display: none;
-}
+  display: none; }
 
 .text__carrousel2:hover {
-    color: #9B0B34;
-}
+  color: #9B0B34; }
 
 .Textinfo {
-    font-size: 13px;
-    text-align: justify;
-    padding: 5%;
-}
+  font-size: 13px;
+  text-align: justify;
+  padding: 5%; }
 
 .info__caract {
-    font-size: 13px;
-    text-align: justify;
-    padding: 5%;
-    background-color: #F2F2F2;
-
-}
+  font-size: 13px;
+  text-align: justify;
+  padding: 5%;
+  background-color: #F2F2F2; }
 
 .Texto__download {
-    width: 100%;
-    height: 100%;
-}
+  width: 100%;
+  height: 100%; }
 
 .tittle__games {
-    color: #ece1e1;
-    font-size: 20px;
-    padding: 6%;
-}
+  color: #ece1e1;
+  font-size: 20px;
+  padding: 6%; }
 
 .Tittle__juegimg {
-    text-align: center;
-    font-style: italic;
-}
+  text-align: center;
+  font-style: italic; }
 
 /*Titulos y textos*/
-
 /*Botones*/
 .button__1 {
-    text-align: center;
-}
+  text-align: center; }
 
 .button__A {
-    border-radius: 50%;
-    color: rgb(255, 255, 255);
-    background-color: #9B0B34;
-    font-size: 14px;
-    border: transparent;
-}
+  border-radius: 50%;
+  color: white;
+  background-color: #9B0B34;
+  font-size: 14px;
+  border: transparent; }
 
 .button__A:hover {
-    background-color: #d60540;
-    border-color: unset;
-}
+  background-color: #d60540;
+  border-color: unset; }
 
 /*Botones*/
 .container__principal {
-    margin: auto;
-    max-width: 1400px;
-}
+  margin: auto;
+  max-width: 1400px; }
 
 /* barra de navegacion + logo*/
 .backgruond__stily {
-    background-color: #26262E;
-}
+  background-color: #26262E; }
 
 .logo__img {
-    padding-top: 10px;
-    padding-left: 25px;
-}
+  padding-top: 10px;
+  padding-left: 25px; }
 
 .nav__tittle {
-    padding-left: 60%;
-}
+  padding-left: 60%; }
 
 .nav__tittle ul li a {
-    margin: 11px;
-    color: aliceblue;
-}
+  margin: 11px;
+  color: aliceblue; }
 
 .nav__hover {
-    align-items: flex-end;
-}
+  align-items: flex-end; }
 
 .nav__hover::before {
-    content: "";
-    height: 2.5px;
-    width: 0%;
-    background-color: #9B0B34;
-    position: absolute;
-    left: 0;
-    bottom: 14px;
-    transition: 0.4s ease-out;
-
-}
+  content: "";
+  height: 2.5px;
+  width: 0%;
+  background-color: #9B0B34;
+  position: absolute;
+  left: 0;
+  bottom: 14px;
+  transition: 0.4s ease-out; }
 
 .nav__hover:hover::before {
-    width: 100%;
-}
+  width: 100%; }
 
 .nav__tittle ul li a:hover {
-    color: #9B0B34;
-
-}
+  color: #9B0B34; }
 
 /* barra de navegacion + logo*/
-
 /*background + logos img*/
 .imgbackgroud {
-    width: 100%;
-    height: auto;
-}
+  width: 100%;
+  height: auto; }
 
 .imglogoinfo1 {
-    display: none;
-}
+  display: none; }
 
 .imglogoinfo2 {
-    display: none;
-}
+  display: none; }
 
 .background__Download {
-    width: auto;
-    height: 250px;
-    background-image: url("../img/Fondobeta.png");
-    background-repeat: no-repeat;
-    background-size: 100%;
-
-}
+  width: auto;
+  height: 250px;
+  background-image: url("../img/Fondobeta.png");
+  background-repeat: no-repeat;
+  background-size: 100%; }
 
 .background__contact {
-    background-color: rgba(38, 38, 46, 1);
-}
+  background-color: #26262e; }
 
 /*background + logos img*/
-
-
 /*Index*/
 .background__emulatorsindex {
-    background-color: #F2F2F2;
-    margin: 25px;
-}
+  background-color: #F2F2F2;
+  margin: 25px; }
 
 .emuimg {
-    width: 100px;
-    margin: 5px;
-}
+  width: 100px;
+  margin: 5px; }
 
 .cointainer__Emuladores__index {
-    display: flex;
-    justify-content: center;
-    flex-wrap: wrap;
-}
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap; }
 
 .background__juegosindex {
-    background-color: #F2F2F2;
-    margin: 25px;
-}
+  background-color: #F2F2F2;
+  margin: 25px; }
 
 .cointainer__juegos__index {
-    display: flex;
-    justify-content: center;
-    flex-wrap: wrap;
-}
-
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap; }
 
 .jueimg {
-    width: 100px;
-    margin: 5px;
-}
-/*Index*/
+  width: 100px;
+  margin: 5px; }
 
+/*Index*/
 /*Contact.html*/
 .Container__contact {
-    background-color: rgba(38, 38, 46, 1);
-    color: #ffffff;
-    padding: 0 1.5em;
-
-}
+  background-color: #26262e;
+  color: #ffffff;
+  padding: 0 1.5em; }
 
 .container__Formulario {
-    max-width: 1170px;
-    margin-left: auto;
-    margin-right: auto;
-    padding: 1em;
-    padding-bottom: 10rem;
-}
+  max-width: 1170px;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 1em;
+  padding-bottom: 10rem; }
 
 .contact__Form {
-    font-size: 2rem;
-}
+  font-size: 2rem; }
 
 .Logo__contac {
-    padding-bottom: 1em;
-    text-align: center;
-    font-size: 3em;
-}
+  padding-bottom: 1em;
+  text-align: center;
+  font-size: 3em; }
 
 .Logo__contac span {
-    color: #9B0B34;
-}
+  color: #9B0B34; }
 
 .conctact__container {
-    box-shadow: 0 0 20px 0 rgba(255, 255, 255, .3);
+  box-shadow: 0 0 20px 0 rgba(255, 255, 255, 0.3); }
 
-
-}
-
-.conctact__container>* {
-    padding: 1em;
-}
+.conctact__container > * {
+  padding: 1em; }
 
 .conctact__container {
-    background-color: #222222;
-}
+  background-color: #222222; }
 
 .conctact__container form {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-}
+  display: grid;
+  grid-template-columns: 1fr 1fr; }
 
 .conctact__container form .Bot__grid {
-    grid-column: 1/3;
-}
-
+  grid-column: 1/3; }
 
 .conctact__container form p {
-    margin: 0;
-    padding: 1em;
-}
+  margin: 0;
+  padding: 1em; }
 
 .conctact__container form p {
-    padding-top: 1em;
-}
+  padding-top: 1em; }
 
 .conctact__container form button,
 .conctact__container form input,
 .conctact__container form textarea {
-    width: 100%;
-    padding: .7em;
-    border: none;
-    background: none;
-    outline: 0;
-    color: #fff;
-    border-bottom: 1px solid #9B0B34;
-}
+  width: 100%;
+  padding: .7em;
+  border: none;
+  background: none;
+  outline: 0;
+  color: #fff;
+  border-bottom: 1px solid #9B0B34; }
 
 .conctact__container form button {
-    background: #b70e21;
-    border: 0;
-    text-transform: uppercase;
-    padding: .85em;
-}
+  background: #b70e21;
+  border: 0;
+  text-transform: uppercase;
+  padding: .85em; }
 
 .conctact__container form button:hover,
 .conctact__container form button:focus {
-    background: #9B0B34;
-    color: #000;
-    transition: background-color 1s ease-out;
-    outline: 0;
-}
+  background: #9B0B34;
+  color: #000;
+  transition: background-color 1s ease-out;
+  outline: 0; }
 
 /*Contact.html*/
-
 /* Sistemas operativos Donwload*/
 .sistemas__op {
-    display: grid;
-    justify-items: center;
-    background-color: #F2F2F2;
-
-}
+  display: grid;
+  justify-items: center;
+  background-color: #F2F2F2; }
 
 .Sistemas__container {
-    display: flex;
-    justify-content: center;
-    flex-wrap: wrap;
-
-}
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap; }
 
 .sistemas__op img {
-    height: 80px;
-    padding-left: 8px;
-    padding-top: 5px;
-}
+  height: 80px;
+  padding-left: 8px;
+  padding-top: 5px; }
 
 /* Sistemas operativos Donwload*/
-
-
 /*Games.Html*/
 .Games__body {
-    background-color: #222222;
-
-}
-
+  background-color: #222222; }
 
 .container__gamecom {
-    padding-right: 3rem;
-    padding-left: 3rem;
-    padding-bottom: 7rem;
-    background-color: #222222;
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-around;
-}
+  padding-right: 3rem;
+  padding-left: 3rem;
+  padding-bottom: 7rem;
+  background-color: #222222;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around; }
 
 .container__gamecom li {
-    border-bottom: 1px solid #DBDBDB;
-    color: #DBDBDB;
-    margin-left: auto;
-    margin-right: auto;
-    padding: 20px;
-    list-style: none
-}
+  border-bottom: 1px solid #DBDBDB;
+  color: #DBDBDB;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 20px;
+  list-style: none; }
 
 .container__gamecom p {
-    font-size: 20px;
-    padding-left: 30px;
-}
+  font-size: 20px;
+  padding-left: 30px; }
 
 .Checkcomp {
-    display: inline-block;
-    padding-right: 30px;
-    padding-left: 8px;
-
-}
+  display: inline-block;
+  padding-right: 30px;
+  padding-left: 8px; }
 
 .box__chek {
-    display: inline-block;
-    width: 16px;
-    height: 16px;
-}
+  display: inline-block;
+  width: 16px;
+  height: 16px; }
 
 .game__list {
-    padding: 20px;
-}
+  padding: 20px; }
 
 .container__gamelist {
-    padding-right: 3rem;
-    padding-left: 3rem;
-    padding-bottom: 7rem;
-    background-color: #222222;
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-around;
-
-}
+  padding-right: 3rem;
+  padding-left: 3rem;
+  padding-bottom: 7rem;
+  background-color: #222222;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around; }
 
 .container__gamelist li {
-    width: 400px;
-    border-bottom: 1px solid #DBDBDB;
-    color: #DBDBDB;
-    margin-left: auto;
-    margin-right: auto;
-    padding: 20px;
-    list-style: none
-}
+  width: 400px;
+  border-bottom: 1px solid #DBDBDB;
+  color: #DBDBDB;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 20px;
+  list-style: none; }
 
 #game__celeste {
-    background-color: #5c93ed;
-
-}
+  background-color: #5c93ed; }
 
 #game__verde {
-    background-color: #47d35c;
-}
+  background-color: #47d35c; }
 
 #game__verdeos {
-    background-color: #94b242;
-}
+  background-color: #94b242; }
 
 #game__amarillo {
-    background-color: #eacd13;
-}
+  background-color: #eacd13; }
 
 #game__rojo {
-    background-color: red;
-}
+  background-color: red; }
 
 #game__gris {
-    background-color: #828282;
-}
+  background-color: #828282; }
 
 #game__negro {
-    background-color: black;
-}
+  background-color: black; }
 
 /*Games.Html*/
-
 /* Guia instalacion Download*/
 .Video__tuto {
-    padding-top: 12px;
-    text-align: center;
-}
+  padding-top: 12px;
+  text-align: center; }
 
 /* Guia instalacion Download*/
-
 /*Interface*/
 .tittle__interface {
-    padding-top: 20px;
-}
+  padding-top: 20px; }
 
 .cotainer__pestañas {
-    display: flex;
-    flex-wrap: wrap;
-}
+  display: flex;
+  flex-wrap: wrap; }
 
 .config__interface {
-    padding: 80px;
-    text-align: justify;
-    color: #222222;
-}
+  padding: 80px;
+  text-align: justify;
+  color: #222222; }
 
 .config__interface li {
-    font-size: 20px;
-}
+  font-size: 20px; }
 
 .interface__img {
-    width: 100%;
-    padding-left: 10px;
-    padding-bottom: 10px;
-    padding-right: 10px;
-
-}
+  width: 100%;
+  padding-left: 10px;
+  padding-bottom: 10px;
+  padding-right: 10px; }
 
 .cotainer__pestañasend {
-    display: flex;
-    flex-wrap: wrap;
-    text-align: center;
-
-}
+  display: flex;
+  flex-wrap: wrap;
+  text-align: center; }
 
 .interface__imgend {
-    width: 100%;
-    height: auto;
-    padding-left: 10px;
-    padding-bottom: 10px;
-    padding-right: 10px;
-    text-align: center;
-}
+  width: 100%;
+  height: auto;
+  padding-left: 10px;
+  padding-bottom: 10px;
+  padding-right: 10px;
+  text-align: center; }
 
 /*Interface*/
-
-
 /* Footer*/
 .footerbeta img {
-    box-sizing: border-box;
-    width: 100%;
-}
+  box-sizing: border-box;
+  width: 100%; }
 
 /* Footer*/
-
 /*Media Querys*/
-@media screen and (min-width:768px) {
-    .jueimg {
-        width: 150px;
-        padding: 8px;
+@media screen and (min-width: 768px) {
+  .jueimg {
+    width: 150px;
+    padding: 8px; }
+  .emuimg {
+    width: 150px;
+    margin: 8px; }
+  h3 {
+    padding: 12px; }
+  .nav__bar ul li a {
+    padding: 10px 19px; } }
 
-    }
+@media screen and (min-width: 1231px) {
+  .imgbackgroud {
+    height: 45rem; }
+  .logo__1 {
+    padding: 2%;
+    height: auto; }
+  .imglogoinfo1 {
+    padding-top: 80px;
+    display: grid;
+    height: 14rem; }
+  .button__A {
+    padding: 14px 30px;
+    font-size: 19px; }
+  .imglogoinfo2 {
+    padding-top: 80px;
+    display: grid;
+    height: 14rem; }
+  .Container__info1 {
+    padding: 2%;
+    display: flex; }
+  .Textinfo {
+    font-size: 20px;
+    text-align: justify;
+    padding: 5%; }
+  h3 {
+    font-size: 50px;
+    padding: 30px; }
+  h4 {
+    font-size: 40px; }
+  .jueimg {
+    width: 15rem;
+    padding: 25px; }
+  .emuimg {
+    width: 16rem;
+    padding: 25px; }
+  .text__carrousel p {
+    width: 100%;
+    height: 45px;
+    position: absolute;
+    bottom: 100px;
+    padding-left: 70%;
+    color: #040404;
+    font-size: 32px;
+    font-family: 'Gloria Hallelujah', cursive;
+    animation: flipInX;
+    animation-duration: 2s; }
+  .text__carrousel2 {
+    display: block;
+    width: 100%;
+    height: 45px;
+    position: absolute;
+    bottom: 650px;
+    padding-left: 75%;
+    color: #fffafa; }
+  .text__carrousel2 P {
+    font-size: 22px;
+    font-family: 'Gloria Hallelujah', cursive;
+    animation: backInRight;
+    animation-duration: 2s; } }
 
-    .emuimg {
-        width: 150px;
-        margin: 8px;
-    }
+@media screen and (min-width: 638px) {
+  .text__description__download {
+    padding-top: 27%;
+    padding-bottom: 15%;
+    font-size: 10px; }
+  .sistemas__op img {
+    margin: 25px;
+    height: 120px; }
+  .titulo__sistemas {
+    padding-top: 35px; } }
 
-    h3 {
-        padding: 12px;
-    }
+@media screen and (min-width: 768px) {
+  .text__description__download {
+    padding-top: 22%;
+    padding-bottom: 15%;
+    font-size: 11px; }
+  .Video__tuto {
+    height: 450px; }
+  .Video__tuto iframe {
+    width: 80%;
+    height: 80%; } }
 
-    .nav__bar ul li a {
+@media screen and (min-width: 992px) {
+  .text__description__download {
+    padding-top: 35%;
+    padding-bottom: 15%;
+    font-size: 15px; }
+  .background__Download {
+    height: 500px; }
+  .info__caract {
+    font-size: 15px; } }
 
-        padding: 10px 19px;
-    }
-
-}
-
-
-@media screen and (min-width:1231px) {
-
-
-    .imgbackgroud {
-        height: 45rem;
-    }
-
-    .logo__1 {
-        padding: 2%;
-        height: auto;
-    }
-
-
-    .imglogoinfo1 {
-        padding-top: 80px;
-        display: grid;
-        height: 14rem;
-    }
-
-    .button__A {
-        padding: 14px 30px;
-        font-size: 19px;
-    }
-
-    .imglogoinfo2 {
-        padding-top: 80px;
-        display: grid;
-        height: 14rem;
-    }
-
-    .Container__info1 {
-        padding: 2%;
-        display: flex
-    }
-
-    .Textinfo {
-        font-size: 20px;
-        text-align: justify;
-        padding: 5%;
-    }
-
-    h3 {
-        font-size: 50px;
-        padding: 30px;
-    }
-
-    h4 {
-        font-size: 40px;
-    }
-
-    .jueimg {
-        width: 15rem;
-        padding: 25px;
-    }
-
-    .emuimg {
-        width: 16rem;
-        padding: 25px;
-    }
-
-    .text__carrousel p{
-        width: 100%;
-        height: 45px;
-        position: absolute;
-        bottom: 100px;
-        padding-left: 70%;
-        color: #040404;
-        font-size: 32px;
-        font-family: 'Gloria Hallelujah', cursive;
-        animation: flipInX;
-        animation-duration: 2s;
-    }
-
-    .text__carrousel2 {
-        display: block;
-        width: 100%;
-        height: 45px;
-        position: absolute;
-        bottom: 650px;
-        padding-left: 75%;
-        color: #fffafa;
-
-    }
-
-
-    .text__carrousel2 P {
-        font-size: 22px;
-        font-family: 'Gloria Hallelujah', cursive;
-        animation: backInRight;
-        animation-duration: 2s;
-    }
-}
-
-
-@media screen and (min-width:638px) {
-    .text__description__download {
-        padding-top: 27%;
-        padding-bottom: 15%;
-        font-size: 10px;
-    }
-
-    .sistemas__op img {
-        margin: 25px;
-        height: 120px;
-    }
-
-    .titulo__sistemas {
-        padding-top: 35px;
-    }
-
-}
-
-@media screen and (min-width:768px) {
-    .text__description__download {
-        padding-top: 22%;
-        padding-bottom: 15%;
-        font-size: 11px;
-    }
-
-    .Video__tuto {
-        height: 450px;
-    }
-
-    .Video__tuto iframe {
-        width: 80%;
-        height: 80%;
-    }
-
-}
-
-@media screen and (min-width:992px) {
-    .text__description__download {
-        padding-top: 35%;
-        padding-bottom: 15%;
-        font-size: 15px;
-    }
-
-    .background__Download {
-        height: 500px;
-
-    }
-
-    .info__caract {
-        font-size: 15px;
-    }
-
-}
-
-@media screen and (min-width:1200px) {
-    .text__description__download {
-        padding-top: 25%;
-        padding-bottom: 15%;
-        padding-right: 15%;
-        padding-left: 3%;
-        font-size: 11px;
-    }
-
-    .background__Download {
-        height: 700px;
-    }
-
-    .text__description__download {
-        font-size: 30px;
-        padding-bottom: 25%;
-    }
-
-    .sistemas__op img {
-        margin: 65px;
-        height: 180px;
-    }
-
-    .info__caract {
-        font-size: 25px;
-    }
-
-    .titulo__sistemas {
-        padding-top: 65px;
-        padding-bottom: 65px;
-        font-size: 65px;
-    }
-
-    h5 {
-        font-size: 65px;
-    }
-
-    #Guiain {
-        font-size: 55px;
-    }
-
-    .Video__tuto {
-        height: 700px;
-    }
-
-    .Video__tuto iframe {
-        width: 80%;
-        height: 80%;
-    }
-
-    .tittle__games {
-        font-size: 40px;
-    }
-
-    .cotainer__pestañas {
-        flex-wrap: nowrap;
-        align-items: center;
-        padding-left: 8rem;
-        padding-right: 8rem;
-    }
-
-    .interface__img {
-        width: 35rem;
-        height: 35rem;
-        padding-top: 150px;
-        padding-bottom: 150px;
-
-    }
-
-    .interface__imgend {
-        width: 35rem;
-        height: 35rem;
-        padding-top: 150px;
-        padding-bottom: 150px;
-    }
-
-    .cotainer__pestañasend {
-        justify-content: space-around;
-
-    }
-
-    .button__1 {
-        text-align: center;
-        padding-top: 15px;
-    }
-}
+@media screen and (min-width: 1200px) {
+  .text__description__download {
+    padding-top: 25%;
+    padding-bottom: 15%;
+    padding-right: 15%;
+    padding-left: 3%;
+    font-size: 11px; }
+  .background__Download {
+    height: 700px; }
+  .text__description__download {
+    font-size: 30px;
+    padding-bottom: 25%; }
+  .sistemas__op img {
+    margin: 65px;
+    height: 180px; }
+  .info__caract {
+    font-size: 25px; }
+  .titulo__sistemas {
+    padding-top: 65px;
+    padding-bottom: 65px;
+    font-size: 65px; }
+  h5 {
+    font-size: 65px; }
+  #Guiain {
+    font-size: 55px; }
+  .Video__tuto {
+    height: 700px; }
+  .Video__tuto iframe {
+    width: 80%;
+    height: 80%; }
+  .tittle__games {
+    font-size: 40px; }
+  .cotainer__pestañas {
+    flex-wrap: nowrap;
+    align-items: center;
+    padding-left: 8rem;
+    padding-right: 8rem; }
+  .interface__img {
+    width: 35rem;
+    height: 35rem;
+    padding-top: 150px;
+    padding-bottom: 150px; }
+  .interface__imgend {
+    width: 35rem;
+    height: 35rem;
+    padding-top: 150px;
+    padding-bottom: 150px; }
+  .cotainer__pestañasend {
+    justify-content: space-around; }
+  .button__1 {
+    text-align: center;
+    padding-top: 15px; } }
 
 /*Media Querys*/

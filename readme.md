@@ -6,6 +6,6 @@
 <li>html5</li>
 <li>Css</li>
 <li>Boostrap 5</li>
-<li></li>
-<li></li>
+<li>Sass</li>
+<li>Node.js</li>
 </ul> 
