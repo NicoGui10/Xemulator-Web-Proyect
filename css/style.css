@@ -99,9 +99,10 @@ h5 {
   padding-top: 10px;
   padding-left: 25px; }
 
-.nav__tittle {
-  padding-left: 60%; }
-
+/*.nav__tittle {
+    padding-left: 60%;
+}
+*/
 .nav__tittle ul li a {
   margin: 11px;
   color: aliceblue; }
