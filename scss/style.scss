@@ -216,6 +216,7 @@ h5 {
     width: 100px;
     margin: 5px;
 }
+
 /*Index*/
 
 /*Contact.html*/
@@ -336,6 +337,7 @@ h5 {
 
 /*Games.Html*/
 .Games__body {
+    width: 100%;
     background-color: #222222;
 
 }
@@ -380,6 +382,7 @@ h5 {
 
 .game__list {
     padding: 20px;
+    
 }
 
 .container__gamelist {
@@ -394,7 +397,6 @@ h5 {
 }
 
 .container__gamelist li {
-    width: 400px;
     border-bottom: 1px solid #DBDBDB;
     color: #DBDBDB;
     margin-left: auto;
@@ -582,7 +584,7 @@ h5 {
         padding: 25px;
     }
 
-    .text__carrousel p{
+    .text__carrousel p {
         width: 100%;
         height: 45px;
         position: absolute;

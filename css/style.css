@@ -264,6 +264,7 @@ h5 {
 /* Sistemas operativos Donwload*/
 /*Games.Html*/
 .Games__body {
+  width: 100%;
   background-color: #222222; }
 
 .container__gamecom {
@@ -310,7 +311,6 @@ h5 {
   justify-content: space-around; }
 
 .container__gamelist li {
-  width: 400px;
   border-bottom: 1px solid #DBDBDB;
   color: #DBDBDB;
   margin-left: auto;
