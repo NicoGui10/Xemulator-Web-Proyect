@@ -9,14 +9,14 @@
 
 /*Titulos y textos*/
 h3 {
-    font-size: 2rem;
+    font-size:$titulos-max;
     text-align: center;
 }
 
 h4 {
     padding-top: 10%;
     text-align: center;
-    font-size: 1.2rem;
+    font-size: $titulos-mid;
 }
 
 .titulo__sistemas {
@@ -24,15 +24,12 @@ h4 {
 }
 
 h5 {
-    font-size: 25px;
+    font-size: $titulos-min;
     padding-top: 35px;
     padding-bottom: 35px;
     text-align: center;
 }
 
-#Guiain {
-    font-size: 25px;
-}
 
 .text__carrousel p {
     width: 100%;
@@ -52,17 +49,17 @@ h5 {
 }
 
 .text__carrousel2:hover {
-    color: #9B0B34;
+    color: $primary-color;
 }
 
 .Textinfo {
-    font-size: 13px;
+    font-size: $Text-All;
     text-align: justify;
     padding: 5%;
 }
 
 .info__caract {
-    font-size: 13px;
+    font-size: $Text-All;
     text-align: justify;
     padding: 5%;
     background-color: #F2F2F2;
@@ -95,7 +92,7 @@ h5 {
 .button__A {
     border-radius: 50%;
     color: rgb(255, 255, 255);
-    background-color: #9B0B34;
+    background-color: $primary-color;
     font-size: 14px;
     border: transparent;
 }
@@ -113,7 +110,7 @@ h5 {
 
 /* barra de navegacion + logo*/
 .backgruond__stily {
-    background-color: #26262E;
+    background-color: $Fondo-color;
 }
 
 .logo__img {
@@ -134,7 +131,7 @@ h5 {
     content: "";
     height: 2.5px;
     width: 0%;
-    background-color: #9B0B34;
+    background-color: $primary-color;
     position: absolute;
     left: 0;
     bottom: 14px;
@@ -147,7 +144,7 @@ h5 {
 }
 
 .nav__tittle ul li a:hover {
-    color: #9B0B34;
+    color: $primary-color;
 
 }
 
@@ -177,7 +174,7 @@ h5 {
 }
 
 .background__contact {
-    background-color: rgba(38, 38, 46, 1);
+    background-color: $Fondo-color;
 }
 
 /*background + logos img*/
@@ -185,12 +182,12 @@ h5 {
 
 /*Index*/
 .background__emulatorsindex {
-    background-color: #F2F2F2;
+    background-color: $Box-color;
     margin: 25px;
 }
 
 .emuimg {
-    width: 100px;
+    width: $box-size;
     margin: 5px;
 }
 
@@ -201,7 +198,7 @@ h5 {
 }
 
 .background__juegosindex {
-    background-color: #F2F2F2;
+    background-color:  $Box-color;
     margin: 25px;
 }
 
@@ -213,7 +210,7 @@ h5 {
 
 
 .jueimg {
-    width: 100px;
+    width: $box-size;
     margin: 5px;
 }
 
@@ -221,7 +218,7 @@ h5 {
 
 /*Contact.html*/
 .Container__contact {
-    background-color: rgba(38, 38, 46, 1);
+    background-color: $Fondo-color;
     color: #ffffff;
     padding: 0 1.5em;
 
@@ -246,7 +243,7 @@ h5 {
 }
 
 .Logo__contac span {
-    color: #9B0B34;
+    color: $primary-color;
 }
 
 .conctact__container {
@@ -291,7 +288,7 @@ h5 {
     background: none;
     outline: 0;
     color: #fff;
-    border-bottom: 1px solid #9B0B34;
+    border-bottom: 1px solid $primary-color;
 }
 
 .conctact__container form button {
@@ -303,7 +300,7 @@ h5 {
 
 .conctact__container form button:hover,
 .conctact__container form button:focus {
-    background: #9B0B34;
+    background: $primary-color;
     color: #000;
     transition: background-color 1s ease-out;
     outline: 0;
@@ -315,7 +312,7 @@ h5 {
 .sistemas__op {
     display: grid;
     justify-items: center;
-    background-color: #F2F2F2;
+    background-color:$Box-color;
 
 }
 
@@ -327,7 +324,7 @@ h5 {
 }
 
 .sistemas__op img {
-    height: 80px;
+    height: $box-size;
     padding-left: 8px;
     padding-top: 5px;
 }
@@ -338,7 +335,7 @@ h5 {
 /*Games.Html*/
 .Games__body {
     width: 100%;
-    background-color: #222222;
+    background-color: $Fondo-color;
 
 }
 
@@ -347,7 +344,7 @@ h5 {
     padding-right: 3rem;
     padding-left: 3rem;
     padding-bottom: 7rem;
-    background-color: #222222;
+    background-color: $Fondo-color;
     display: flex;
     flex-wrap: wrap;
     justify-content: space-around;
@@ -365,6 +362,8 @@ h5 {
 .container__gamecom p {
     font-size: 20px;
     padding-left: 30px;
+    font-size: $Text-Description;
+    
 }
 
 .Checkcomp {
@@ -389,7 +388,7 @@ h5 {
     padding-right: 3rem;
     padding-left: 3rem;
     padding-bottom: 7rem;
-    background-color: #222222;
+    background-color: $Fondo-color; 
     display: flex;
     flex-wrap: wrap;
     justify-content: space-around;
@@ -397,12 +396,14 @@ h5 {
 }
 
 .container__gamelist li {
-    border-bottom: 1px solid #DBDBDB;
+    border-bottom: 1px solid $Box-color;
     color: #DBDBDB;
     margin-left: auto;
     margin-right: auto;
     padding: 20px;
-    list-style: none
+    list-style: none;
+    font-size: $Text-Description;
+
 }
 
 #game__celeste {

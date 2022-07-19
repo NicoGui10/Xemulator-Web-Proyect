@@ -1,5 +1,12 @@
 @charset "UTF-8";
-/*Variables Para todo el css a chequear*/
+/*titulos*/
+/*titulos*/
+/*Colores*/
+/*Colores*/
+/*Textos*/
+/*Textos*/
+/*Tamaño box img*/
+/*Tamaño box img*/
 * {
   margin: 0;
   padding: 0;
@@ -20,13 +27,10 @@ h4 {
   padding-bottom: 15px; }
 
 h5 {
-  font-size: 25px;
+  font-size: 1.1rem;
   padding-top: 35px;
   padding-bottom: 35px;
   text-align: center; }
-
-#Guiain {
-  font-size: 25px; }
 
 .text__carrousel p {
   width: 100%;
@@ -142,7 +146,7 @@ h5 {
   background-size: 100%; }
 
 .background__contact {
-  background-color: #26262e; }
+  background-color: #26262E; }
 
 /*background + logos img*/
 /*Index*/
@@ -175,7 +179,7 @@ h5 {
 /*Index*/
 /*Contact.html*/
 .Container__contact {
-  background-color: #26262e;
+  background-color: #26262E;
   color: #ffffff;
   padding: 0 1.5em; }
 
@@ -257,7 +261,7 @@ h5 {
   flex-wrap: wrap; }
 
 .sistemas__op img {
-  height: 80px;
+  height: 100px;
   padding-left: 8px;
   padding-top: 5px; }
 
@@ -265,13 +269,13 @@ h5 {
 /*Games.Html*/
 .Games__body {
   width: 100%;
-  background-color: #222222; }
+  background-color: #26262E; }
 
 .container__gamecom {
   padding-right: 3rem;
   padding-left: 3rem;
   padding-bottom: 7rem;
-  background-color: #222222;
+  background-color: #26262E;
   display: flex;
   flex-wrap: wrap;
   justify-content: space-around; }
@@ -286,7 +290,8 @@ h5 {
 
 .container__gamecom p {
   font-size: 20px;
-  padding-left: 30px; }
+  padding-left: 30px;
+  font-size: 16px; }
 
 .Checkcomp {
   display: inline-block;
@@ -305,18 +310,19 @@ h5 {
   padding-right: 3rem;
   padding-left: 3rem;
   padding-bottom: 7rem;
-  background-color: #222222;
+  background-color: #26262E;
   display: flex;
   flex-wrap: wrap;
   justify-content: space-around; }
 
 .container__gamelist li {
-  border-bottom: 1px solid #DBDBDB;
+  border-bottom: 1px solid #F2F2F2;
   color: #DBDBDB;
   margin-left: auto;
   margin-right: auto;
   padding: 20px;
-  list-style: none; }
+  list-style: none;
+  font-size: 16px; }
 
 #game__celeste {
   background-color: #5c93ed; }
