@@ -1,0 +1,256 @@
+/*Media Querys*/
+@media screen and (min-width:768px) {
+    .jueimg {
+        width: 150px;
+        padding: 8px;
+
+    }
+
+    .emuimg {
+        width: 150px;
+        margin: 8px;
+    }
+
+    h3 {
+        padding: 12px;
+    }
+
+    .nav__bar ul li a {
+
+        padding: 10px 19px;
+    }
+
+}
+
+
+@media screen and (min-width:1231px) {
+
+
+    .imgbackgroud {
+        height: 45rem;
+    }
+
+    .logo__1 {
+        padding: 2%;
+        height: auto;
+    }
+
+
+    .imglogoinfo1 {
+        padding-top: 80px;
+        display: grid;
+        height: 14rem;
+    }
+
+    .button__A {
+        padding: 14px 30px;
+        font-size: 19px;
+    }
+
+    .imglogoinfo2 {
+        padding-top: 80px;
+        display: grid;
+        height: 14rem;
+    }
+
+    .Container__info1 {
+        padding: 2%;
+        display: flex
+    }
+
+    .Textinfo {
+        font-size: 20px;
+        text-align: justify;
+        padding: 5%;
+    }
+
+    h3 {
+        font-size: 50px;
+        padding: 30px;
+    }
+
+    h4 {
+        font-size: 40px;
+    }
+
+    .jueimg {
+        width: 15rem;
+        padding: 25px;
+    }
+
+    .emuimg {
+        width: 16rem;
+        padding: 25px;
+    }
+
+    .text__carrousel p {
+        width: 100%;
+        height: 45px;
+        position: absolute;
+        bottom: 100px;
+        padding-left: 70%;
+        color: #040404;
+        font-size: 32px;
+        font-family: 'Gloria Hallelujah', cursive;
+        animation: flipInX;
+        animation-duration: 2s;
+    }
+
+    .text__carrousel2 {
+        display: block;
+        width: 100%;
+        height: 45px;
+        position: absolute;
+        bottom: 650px;
+        padding-left: 75%;
+        color: #fffafa;
+
+    }
+
+
+    .text__carrousel2 P {
+        font-size: 22px;
+        font-family: 'Gloria Hallelujah', cursive;
+        animation: backInRight;
+        animation-duration: 2s;
+    }
+}
+
+
+@media screen and (min-width:638px) {
+    .text__description__download {
+        padding-top: 27%;
+        padding-bottom: 15%;
+        font-size: 10px;
+    }
+
+    .sistemas img {
+        margin: 25px;
+        height: 120px;
+    }
+
+    .titulo__sistemas {
+        padding-top: 35px;
+    }
+
+}
+
+@media screen and (min-width:768px) {
+    .text__description__download {
+        padding-top: 22%;
+        padding-bottom: 15%;
+        font-size: 11px;
+    }
+
+    .Video__tuto {
+        height: 450px;
+    }
+
+    .Video__tuto iframe {
+        width: 80%;
+        height: 80%;
+    }
+
+}
+
+@media screen and (min-width:992px) {
+    .text__description__download {
+        padding-top: 35%;
+        padding-bottom: 15%;
+        font-size: 15px;
+    }
+
+    .background__Download {
+        height: 500px;
+
+    }
+
+    .info__caract {
+        font-size: 15px;
+    }
+
+}
+
+@media screen and (min-width:1200px) {
+    .background__Download {
+        height: 700px;
+    }
+
+    .sistemas img {
+        margin: 65px;
+        height: 180px;
+    }
+
+    .info__caract {
+        font-size: 25px;
+    }
+
+    .titulo__sistemas {
+        padding-top: 65px;
+        padding-bottom: 65px;
+        font-size: 65px;
+    }
+
+    h5 {
+        font-size: 65px;
+    }
+
+    #Guiain {
+        font-size: 55px;
+    }
+
+    .Video__tuto {
+        height: 700px;
+    }
+
+    .Video__tuto iframe {
+        width: 80%;
+        height: 80%;
+    }
+
+    .tittle__games {
+        font-size: 40px;
+    }
+
+    .interfaceConte__pestañas {
+        flex-wrap: nowrap;
+        align-items: center;
+        padding-left: 8rem;
+        padding-right: 8rem;
+    }
+
+    .interfaceConte__img {
+        width: 35rem;
+        height: 35rem;
+        padding-top: 150px;
+        padding-bottom: 150px;
+
+    }
+
+    .interfaceConte__imgend {
+        width: 35rem;
+        height: 35rem;
+        padding-top: 150px;
+        padding-bottom: 150px;
+    }
+
+    .interfaceConte__pestañasend {
+        justify-content: space-around;
+
+    }
+
+    .button__1 {
+        text-align: center;
+        padding-top: 15px;
+    }
+}
+
+/*Media Querys*/
+
+
+
+
+
+
+
+
