@@ -77,7 +77,8 @@ h5 {
 /*Titulos y textos*/
 /*Botones*/
 .button__1 {
-  text-align: center; }
+  text-align: center;
+  padding-bottom: 20px; }
 
 .button__A {
   border-radius: 50%;
@@ -246,6 +247,12 @@ h5 {
       padding-left: 8px;
       padding-top: 5px; }
 
+/* Guia instalacion Download*/
+.Video__tuto {
+  padding-top: 12px;
+  text-align: center; }
+
+/* Guia instalacion Download*/
 /* Sistemas operativos Donwload saas*/
 /*Games.Html*/
 .Games__body {
@@ -327,12 +334,6 @@ h5 {
   background-color: black; }
 
 /*Games.Html*/
-/* Guia instalacion Download*/
-.Video__tuto {
-  padding-top: 12px;
-  text-align: center; }
-
-/* Guia instalacion Download*/
 /*Interface saas*/
 .interfaceConte h3 {
   padding-top: 20px; }
@@ -384,9 +385,7 @@ h5 {
     width: 150px;
     margin: 8px; }
   h3 {
-    padding: 12px; }
-  .nav__bar ul li a {
-    padding: 10px 19px; } }
+    padding: 12px; } }
 
 @media screen and (min-width: 1231px) {
   .imgbackgroud {
