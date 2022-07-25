@@ -92,6 +92,9 @@ h5 {
   font-family: 'Roboto', sans-serif;
   box-sizing: border-box; }
 
+html {
+  scroll-behavior: smooth; }
+
 /* barra de navegacion + logo saas*/
 .backgruond__stily {
   background-color: #26262E; }
