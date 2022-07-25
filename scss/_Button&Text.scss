@@ -1,0 +1,97 @@
+/*Titulos y textos*/
+h3 {
+    font-size: $titulos-max;
+    text-align: center;
+}
+
+h4 {
+    padding-top: 10%;
+    text-align: center;
+    font-size: $titulos-mid;
+}
+
+.titulo__sistemas {
+    padding-bottom: 15px;
+}
+
+h5 {
+    font-size: $titulos-min;
+    padding-top: 35px;
+    padding-bottom: 35px;
+    text-align: center;
+}
+
+
+.text__carrousel p {
+    width: 100%;
+    height: 45px;
+    position: absolute;
+    bottom: 7px;
+    padding-left: 70%;
+    color: #040404;
+    font-size: 10px;
+    font-family: 'Gloria Hallelujah', cursive;
+    animation: flipInX;
+    animation-duration: 2s;
+}
+
+.text__carrousel2 {
+    display: none;
+}
+
+.text__carrousel2:hover {
+    color: $primary-color;
+}
+
+.Textinfo {
+    font-size: $Text-All;
+    text-align: justify;
+    padding: 5%;
+}
+
+.info__caract {
+    font-size: $Text-All;
+    text-align: justify;
+    padding: 5%;
+    background-color: #F2F2F2;
+
+}
+
+.Texto__download {
+    width: 100%;
+    height: 100%;
+}
+
+.tittle__games {
+    color: #ece1e1;
+    font-size: 20px;
+    padding: 6%;
+}
+
+.Tittle__juegimg {
+    text-align: center;
+    font-style: italic;
+}
+
+/*Titulos y textos*/
+
+/*Botones*/
+.button__1 {
+    text-align: center;
+    padding-bottom: 20px;
+}
+
+.button__A {
+    border-radius: 50%;
+    color: rgb(255, 255, 255);
+    background-color: $primary-color;
+    font-size: 14px;
+    border: transparent;
+}
+
+.button__A:hover {
+    background-color: #d60540;
+    border-color: unset;
+}
+
+/*Botones*/

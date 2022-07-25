@@ -7,12 +7,6 @@
 /*Textos*/
 /*Tamaño box img*/
 /*Tamaño box img*/
-* {
-  margin: 0;
-  padding: 0;
-  font-family: 'Roboto', sans-serif;
-  box-sizing: border-box; }
-
 /*Titulos y textos*/
 h3 {
   font-size: 2rem;
@@ -92,21 +86,19 @@ h5 {
   border-color: unset; }
 
 /*Botones*/
-.container__principal {
-  margin: auto;
-  max-width: 1400px; }
+* {
+  margin: 0;
+  padding: 0;
+  font-family: 'Roboto', sans-serif;
+  box-sizing: border-box; }
 
-/* barra de navegacion + logo*/
+/* barra de navegacion + logo saas*/
 .backgruond__stily {
   background-color: #26262E; }
 
-.logo__img {
+.container__nav img {
   padding-top: 10px;
   padding-left: 25px; }
-
-.nav__tittle ul li a {
-  margin: 11px;
-  color: aliceblue; }
 
 .nav__hover {
   align-items: flex-end; }
@@ -124,10 +116,14 @@ h5 {
 .nav__hover:hover::before {
   width: 100%; }
 
-.nav__tittle ul li a:hover {
+.nav ul li a {
+  margin: 11px;
+  color: aliceblue; }
+
+.nav ul li a:hover {
   color: #9B0B34; }
 
-/* barra de navegacion + logo*/
+/* barra de navegacion + logo saas*/
 /*background + logos img*/
 .imgbackgroud {
   width: 100%;
@@ -139,42 +135,34 @@ h5 {
 .imglogoinfo2 {
   display: none; }
 
-.background__Download {
-  width: auto;
-  height: 250px;
-  background-image: url("../img/Fondobeta.png");
-  background-repeat: no-repeat;
-  background-size: 100%; }
-
-.background__contact {
-  background-color: #26262E; }
-
 /*background + logos img*/
 /*Index*/
-.background__emulatorsindex {
-  background-color: #F2F2F2;
-  margin: 25px; }
+.containerindex {
+  margin: auto;
+  max-width: 1400px; }
+  .containerindex__emulatorxindex {
+    background-color: #F2F2F2;
+    margin: 25px; }
+  .containerindex__juegosindex {
+    background-color: #F2F2F2;
+    margin: 25px; }
 
 .emuimg {
-  width: 100px;
+  width: 130px;
   margin: 5px; }
 
-.cointainer__Emuladores__index {
+.containerindex__Emuladores {
   display: flex;
   justify-content: center;
   flex-wrap: wrap; }
 
-.background__juegosindex {
-  background-color: #F2F2F2;
-  margin: 25px; }
-
-.cointainer__juegos__index {
+.cointainer__juegos {
   display: flex;
   justify-content: center;
   flex-wrap: wrap; }
 
 .jueimg {
-  width: 100px;
+  width: 130px;
   margin: 5px; }
 
 /*Index*/
@@ -220,7 +208,8 @@ h5 {
         border: 0;
         text-transform: uppercase;
         padding: .85em; }
-        .ContactForm__container form button:hover, .ContactForm__container form button :focus {
+        .ContactForm__container form button:hover,
+        .ContactForm__container form button :focus {
           background: #9B0B34;
           color: #000;
           transition: background-color 1s ease-out;
@@ -231,6 +220,9 @@ h5 {
         margin: 0;
         padding: 1em;
         padding-top: 1em; }
+
+.background__contact {
+  background-color: #26262E; }
 
 /*Contact.html - Sass*/
 /* Sistemas operativos Donwload saas*/
@@ -243,7 +235,7 @@ h5 {
     justify-content: center;
     flex-wrap: wrap; }
     .sistemas__container img {
-      height: 100px;
+      height: 130px;
       padding-left: 8px;
       padding-top: 5px; }
 
@@ -254,7 +246,7 @@ h5 {
 
 /* Guia instalacion Download*/
 /* Sistemas operativos Donwload saas*/
-/*Games.Html*/
+/*Games.Html sass*/
 .Games__body {
   width: 100%;
   background-color: #26262E; }
@@ -267,19 +259,17 @@ h5 {
   display: flex;
   flex-wrap: wrap;
   justify-content: space-around; }
-
-.container__gamecom li {
-  border-bottom: 1px solid #DBDBDB;
-  color: #DBDBDB;
-  margin-left: auto;
-  margin-right: auto;
-  padding: 20px;
-  list-style: none; }
-
-.container__gamecom p {
-  font-size: 20px;
-  padding-left: 30px;
-  font-size: 16px; }
+  .container__gamecom li {
+    border-bottom: 1px solid #DBDBDB;
+    color: #DBDBDB;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 20px;
+    list-style: none; }
+  .container__gamecom p {
+    font-size: 20px;
+    padding-left: 30px;
+    font-size: 16px; }
 
 .Checkcomp {
   display: inline-block;
@@ -302,15 +292,14 @@ h5 {
   display: flex;
   flex-wrap: wrap;
   justify-content: space-around; }
-
-.container__gamelist li {
-  border-bottom: 1px solid #F2F2F2;
-  color: #DBDBDB;
-  margin-left: auto;
-  margin-right: auto;
-  padding: 20px;
-  list-style: none;
-  font-size: 16px; }
+  .container__gamelist li {
+    border-bottom: 1px solid #F2F2F2;
+    color: #DBDBDB;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 20px;
+    list-style: none;
+    font-size: 16px; }
 
 #game__celeste {
   background-color: #5c93ed; }
@@ -333,7 +322,7 @@ h5 {
 #game__negro {
   background-color: black; }
 
-/*Games.Html*/
+/*Games.Html saas*/
 /*Interface saas*/
 .interfaceConte h3 {
   padding-top: 20px; }
