@@ -75,11 +75,16 @@
 .containerindex {
     margin: auto;
     max-width: 1400px;
-    &__emulatorxindex{
+    &__emulatorsindex{
+        padding-top: 15px;
+        padding-bottom: 15px;
         background-color: $Box-color;
         margin: 25px;
     }
-    &__juegosindex { background-color: $Box-color;
+    &__juegosindex { 
+        padding-top: 15px;
+        padding-bottom: 15px;
+        background-color: $Box-color;
         margin: 25px;}
 }
 

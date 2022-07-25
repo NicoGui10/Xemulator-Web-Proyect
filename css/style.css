@@ -140,10 +140,14 @@ h5 {
 .containerindex {
   margin: auto;
   max-width: 1400px; }
-  .containerindex__emulatorxindex {
+  .containerindex__emulatorsindex {
+    padding-top: 15px;
+    padding-bottom: 15px;
     background-color: #F2F2F2;
     margin: 25px; }
   .containerindex__juegosindex {
+    padding-top: 15px;
+    padding-bottom: 15px;
     background-color: #F2F2F2;
     margin: 25px; }
 
