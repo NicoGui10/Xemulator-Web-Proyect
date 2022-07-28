@@ -1,7 +1,18 @@
 /*Titulos y textos*/
+h1{
+    font-size: $titulos-max;
+    text-align: center;
+    padding: 30px;
+}
+h2{
+    font-size: $titulos-max;
+    text-align: center;
+    padding: 30px;
+}
 h3 {
     font-size: $titulos-max;
     text-align: center;
+    padding: 30px;
 }
 
 h4 {
