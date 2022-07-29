@@ -97,15 +97,6 @@ h5 {
   border-color: unset; }
 
 /*Botones*/
-* {
-  margin: 0;
-  padding: 0;
-  font-family: 'Roboto', sans-serif;
-  box-sizing: border-box; }
-
-html {
-  scroll-behavior: smooth; }
-
 /* barra de navegacion + logo saas*/
 .backgruond__stily {
   background-color: #26262E; }
@@ -137,7 +128,47 @@ html {
 .nav ul li a:hover {
   color: #9B0B34; }
 
-/* barra de navegacion + logo saas*/
+/* barra de navegacion + logo sas*/
+/* Footer*/
+.container__footer {
+  background-color: #222222;
+  display: flex;
+  justify-content: space-between; }
+  .container__footer h7 {
+    color: #DBDBDB; }
+  .container__footer img {
+    height: 70px;
+    padding-top: 22px;
+    padding-left: 10px; }
+
+.container__links {
+  padding-top: 22px;
+  padding-right: 10px; }
+  .container__links a {
+    display: inline-block;
+    height: 30px;
+    width: 30px;
+    background-color: rgba(255, 255, 255, 0.2);
+    margin: 0 8px 8px 0;
+    text-align: center;
+    line-height: 30px;
+    border-radius: 50%;
+    color: #ffffff;
+    transition: all 0.5s ease; }
+  .container__links a:hover {
+    color: #9B0B34;
+    background-color: #ffffff; }
+
+/* Footer*/
+* {
+  margin: 0;
+  padding: 0;
+  font-family: 'Roboto', sans-serif;
+  box-sizing: border-box; }
+
+html {
+  scroll-behavior: smooth; }
+
 /*background + logos img*/
 .imgbackgroud {
   width: 100%;
@@ -374,37 +405,6 @@ html {
   text-align: center; }
 
 /*Interface saas*/
-/* Footer*/
-.container__footer {
-  background-color: #222222;
-  display: flex;
-  justify-content: space-between; }
-  .container__footer h7 {
-    color: #DBDBDB; }
-  .container__footer img {
-    height: 70px;
-    padding-top: 22px;
-    padding-left: 10px; }
-
-.container__links {
-  padding-top: 22px;
-  padding-right: 10px; }
-  .container__links a {
-    display: inline-block;
-    height: 30px;
-    width: 30px;
-    background-color: rgba(255, 255, 255, 0.2);
-    margin: 0 8px 8px 0;
-    text-align: center;
-    line-height: 30px;
-    border-radius: 50%;
-    color: #ffffff;
-    transition: all 0.5s ease; }
-  .container__links a:hover {
-    color: #9B0B34;
-    background-color: #ffffff; }
-
-/* Footer*/
 /*Media Querys*/
 @media screen and (min-width: 638px) {
   .text__description__download {

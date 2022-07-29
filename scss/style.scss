@@ -1,5 +1,6 @@
 @import "_var.scss";
 @import "_Button&Text.scss";
+@import "./partials/nav+footer";
 
 * {
     margin: 0;
@@ -11,51 +12,6 @@ html{
     scroll-behavior: smooth;
 }
 
-
-
-/* barra de navegacion + logo saas*/
-.backgruond__stily {
-    background-color: $Fondo-color;
-}
-
-.container__nav {
-    img {
-        padding-top: 10px;
-        padding-left: 25px;
-    }
-}
-
-.nav {
-    &__hover{
-        align-items: flex-end;
-    }
-    &__hover::before{
-        content: "";
-        height: 2.5px;
-        width: 0%;
-        background-color: $primary-color;
-        position: absolute;
-        left: 0;
-        bottom: 14px;
-        transition: 0.4s ease-out;
-    }
-    &__hover:hover::before{
-        width: 100%;
-    }
-    ul {
-        li {
-            a {
-                margin: 11px;
-                color: aliceblue;
-            }
-            a:hover{
-                color: $primary-color;
-            }
-        }
-    }
-}
-
-/* barra de navegacion + logo saas*/
 
 /*background + logos img*/
 .imgbackgroud {
@@ -379,41 +335,4 @@ html{
 
 /*Interface saas*/
 
-
-/* Footer*/
-.container__footer{
-    background-color:#222222;
-    display: flex;
-    justify-content: space-between;
-    h7{
-        color: #DBDBDB;
-    }
-    img{
-        height: 70px;
-        padding-top: 22px;
-        padding-left: 10px;
-    }
-}
-.container__links{
-    padding-top: 22px;
-    padding-right: 10px;
-    a{
-    display: inline-block;
-	height: 30px;
-	width: 30px;
-	background-color: rgba(255,255,255,0.2);
-	margin:0 8px 8px 0;
-	text-align: center;
-	line-height: 30px;
-	border-radius: 50%;
-	color: #ffffff;
-	transition: all 0.5s ease;
-    }
-    a:hover{
-        color: $primary-color;
-        background-color: #ffffff;
-    }
-    
-}
-/* Footer*/
 @import "_mediaQ.scss";
