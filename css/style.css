@@ -83,17 +83,15 @@ h5 {
 /*Botones*/
 .button__1 {
   text-align: center;
-  padding-bottom: 20px; }
+  padding-bottom: 20px;
+  height: 30%; }
 
 .button__A {
-  height: 50px;
-  border-radius: 5%;
+  border-radius: 4%;
   color: white;
   background-color: #9B0B34;
   font-size: 14px;
   border: transparent; }
-  .button__A a {
-    text-align: center; }
 
 .button__A:hover {
   background-color: #d60540;

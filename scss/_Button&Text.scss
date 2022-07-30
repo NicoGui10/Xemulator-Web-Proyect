@@ -90,18 +90,16 @@ h5 {
 .button__1 {
     text-align: center;
     padding-bottom: 20px;
+    height: 30%;
 }
 
 .button__A {
-    height: 50px;
-    border-radius: 5%;
+    
+    border-radius: 4%;
     color: rgb(255, 255, 255);
     background-color: $primary-color;
     font-size: 14px;
     border: transparent;
-    a{
-        text-align: center;
-    }
 }
 
 .button__A:hover {
