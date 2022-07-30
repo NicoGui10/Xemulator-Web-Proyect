@@ -1,0 +1,39 @@
+/*Index*/
+.containerindex {
+    margin: auto;
+    max-width: 1400px;
+    &__emulatorsindex{
+        padding-top: 15px;
+        padding-bottom: 15px;
+        background-color: $Box-color;
+        margin: 25px;
+    }
+    &__juegosindex { 
+        padding-top: 15px;
+        padding-bottom: 15px;
+        background-color: $Box-color;
+        margin: 25px;}
+}
+
+.emuimg {
+    width: $box-size;
+    margin: 5px;
+}
+
+.containerindex__Emuladores {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.cointainer__juegos {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.jueimg {
+    width: $box-size;
+    margin: 5px;
+}
+/*Index*/

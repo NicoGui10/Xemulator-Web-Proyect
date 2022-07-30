@@ -1,0 +1,27 @@
+/* Sistemas operativos Donwload saas*/
+.sistemas {
+    display: grid;
+    justify-items: center;
+    background-color: $Box-color;
+
+    &__container {
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+
+        img {
+            height: $box-size;
+            padding-left: 8px;
+            padding-top: 5px;
+        }
+    }
+}
+
+/* Guia instalacion Download*/
+.Video__tuto {
+    padding-top: 12px;
+    text-align: center;
+}
+
+/* Guia instalacion Download*/
+/* Sistemas operativos Donwload saas*/

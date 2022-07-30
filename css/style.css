@@ -1,4 +1,25 @@
 @charset "UTF-8";
+* {
+  margin: 0;
+  padding: 0;
+  font-family: 'Roboto', sans-serif;
+  box-sizing: border-box; }
+
+html {
+  scroll-behavior: smooth; }
+
+/*background + logos img*/
+.imgbackgroud {
+  width: 100%;
+  height: auto; }
+
+.imglogoinfo1 {
+  display: none; }
+
+.imglogoinfo2 {
+  display: none; }
+
+/*background + logos img*/
 /*titulos*/
 /*titulos*/
 /*Colores*/
@@ -157,27 +178,6 @@ h5 {
     background-color: #ffffff; }
 
 /* Footer*/
-* {
-  margin: 0;
-  padding: 0;
-  font-family: 'Roboto', sans-serif;
-  box-sizing: border-box; }
-
-html {
-  scroll-behavior: smooth; }
-
-/*background + logos img*/
-.imgbackgroud {
-  width: 100%;
-  height: auto; }
-
-.imglogoinfo1 {
-  display: none; }
-
-.imglogoinfo2 {
-  display: none; }
-
-/*background + logos img*/
 /*Index*/
 .containerindex {
   margin: auto;
@@ -212,83 +212,6 @@ html {
   margin: 5px; }
 
 /*Index*/
-/*Contact.html sasss*/
-.ContactForm {
-  background-color: #26262E;
-  color: #ffffff;
-  padding: 0 1.5em; }
-  .ContactForm__Formulario {
-    max-width: 1170px;
-    margin-left: auto;
-    margin-right: auto;
-    padding: 1em;
-    padding-bottom: 10rem; }
-    .ContactForm__Formulario h1 {
-      padding-bottom: 1em;
-      text-align: center;
-      font-size: 3em; }
-    .ContactForm__Formulario span {
-      color: #9B0B34; }
-  .ContactForm__container {
-    box-shadow: 0 0 20px 0 rgba(255, 255, 255, 0.3);
-    background-color: #222222;
-    padding: 1em; }
-    .ContactForm__container form {
-      display: grid;
-      grid-template-columns: 1fr 1fr; }
-      .ContactForm__container form button,
-      .ContactForm__container form input,
-      .ContactForm__container form textarea {
-        width: 100%;
-        padding: .7em;
-        border: none;
-        background: none;
-        outline: 0;
-        color: #fff;
-        border-bottom: 1px solid #9B0B34; }
-      .ContactForm__container form button {
-        background: #b70e21;
-        border: 0;
-        text-transform: uppercase;
-        padding: .85em; }
-        .ContactForm__container form button:hover,
-        .ContactForm__container form button :focus {
-          background: #9B0B34;
-          color: #000;
-          transition: background-color 1s ease-out;
-          outline: 0; }
-      .ContactForm__container form .Bot__grid {
-        grid-column: 1/3; }
-      .ContactForm__container form p {
-        margin: 0;
-        padding: 1em;
-        padding-top: 1em; }
-
-.background__contact {
-  background-color: #26262E; }
-
-/*Contact.html - Sass*/
-/* Sistemas operativos Donwload saas*/
-.sistemas {
-  display: grid;
-  justify-items: center;
-  background-color: #F2F2F2; }
-  .sistemas__container {
-    display: flex;
-    justify-content: center;
-    flex-wrap: wrap; }
-    .sistemas__container img {
-      height: 130px;
-      padding-left: 8px;
-      padding-top: 5px; }
-
-/* Guia instalacion Download*/
-.Video__tuto {
-  padding-top: 12px;
-  text-align: center; }
-
-/* Guia instalacion Download*/
-/* Sistemas operativos Donwload saas*/
 /*Games.Html sass*/
 .Games__body {
   width: 100%;
@@ -366,6 +289,27 @@ html {
   background-color: black; }
 
 /*Games.Html saas*/
+/* Sistemas operativos Donwload saas*/
+.sistemas {
+  display: grid;
+  justify-items: center;
+  background-color: #F2F2F2; }
+  .sistemas__container {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap; }
+    .sistemas__container img {
+      height: 130px;
+      padding-left: 8px;
+      padding-top: 5px; }
+
+/* Guia instalacion Download*/
+.Video__tuto {
+  padding-top: 12px;
+  text-align: center; }
+
+/* Guia instalacion Download*/
+/* Sistemas operativos Donwload saas*/
 /*Interface saas*/
 .interfaceConte h3 {
   padding-top: 20px; }
@@ -402,6 +346,62 @@ html {
   text-align: center; }
 
 /*Interface saas*/
+/*Contact.html sasss*/
+.ContactForm {
+  background-color: #26262E;
+  color: #ffffff;
+  padding: 0 1.5em; }
+  .ContactForm__Formulario {
+    max-width: 1170px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 1em;
+    padding-bottom: 10rem; }
+    .ContactForm__Formulario h1 {
+      padding-bottom: 1em;
+      text-align: center;
+      font-size: 3em; }
+    .ContactForm__Formulario span {
+      color: #9B0B34; }
+  .ContactForm__container {
+    box-shadow: 0 0 20px 0 rgba(255, 255, 255, 0.3);
+    background-color: #222222;
+    padding: 1em; }
+    .ContactForm__container form {
+      display: grid;
+      grid-template-columns: 1fr 1fr; }
+      .ContactForm__container form button,
+      .ContactForm__container form input,
+      .ContactForm__container form textarea {
+        width: 100%;
+        padding: .7em;
+        border: none;
+        background: none;
+        outline: 0;
+        color: #fff;
+        border-bottom: 1px solid #9B0B34; }
+      .ContactForm__container form button {
+        background: #b70e21;
+        border: 0;
+        text-transform: uppercase;
+        padding: .85em; }
+        .ContactForm__container form button:hover,
+        .ContactForm__container form button :focus {
+          background: #9B0B34;
+          color: #000;
+          transition: background-color 1s ease-out;
+          outline: 0; }
+      .ContactForm__container form .Bot__grid {
+        grid-column: 1/3; }
+      .ContactForm__container form p {
+        margin: 0;
+        padding: 1em;
+        padding-top: 1em; }
+
+.background__contact {
+  background-color: #26262E; }
+
+/*Contact.html - Sass*/
 /*Media Querys*/
 @media screen and (min-width: 638px) {
   .text__description__download {
@@ -421,9 +421,9 @@ html {
     font-size: 11px; }
   .Video__tuto {
     height: 450px; }
-  .Video__tuto iframe {
-    width: 80%;
-    height: 80%; }
+    .Video__tuto iframe {
+      width: 80%;
+      height: 80%; }
   .jueimg {
     width: 150px;
     padding: 8px; }
@@ -459,9 +459,9 @@ html {
     font-size: 55px; }
   .Video__tuto {
     height: 700px; }
-  .Video__tuto iframe {
-    width: 80%;
-    height: 80%; }
+    .Video__tuto iframe {
+      width: 80%;
+      height: 80%; }
   .tittle__games {
     font-size: 40px; }
   .interfaceConte__pestañas {

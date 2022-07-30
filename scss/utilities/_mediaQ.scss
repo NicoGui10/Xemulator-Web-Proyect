@@ -27,12 +27,12 @@
 
     .Video__tuto {
         height: 450px;
+        iframe {
+            width: 80%;
+            height: 80%;
+        }
     }
 
-    .Video__tuto iframe {
-        width: 80%;
-        height: 80%;
-    }
     .jueimg {
         width: 150px;
         padding: 8px;
@@ -97,11 +97,10 @@
 
     .Video__tuto {
         height: 700px;
-    }
-
-    .Video__tuto iframe {
-        width: 80%;
-        height: 80%;
+        iframe {
+            width: 80%;
+            height: 80%;
+        }
     }
 
     .tittle__games {
@@ -225,7 +224,6 @@
         }
     }
 }
-
 /*Media Querys*/
 
 

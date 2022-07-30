@@ -1,0 +1,47 @@
+/*Interface saas*/
+.interfaceConte {
+    h3 {
+        padding-top: 20px;
+    }
+
+    &__pestañas {
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    &__interface {
+        padding: 80px;
+        text-align: justify;
+        color: #222222;
+    }
+
+    &__interface li {
+        font-size: 20px;
+    }
+
+    &__img {
+        width: 100%;
+        padding-left: 10px;
+        padding-bottom: 10px;
+        padding-right: 10px;
+
+    }
+}
+
+.interfaceConte__pestañasend {
+    display: flex;
+    flex-wrap: wrap;
+    text-align: center;
+
+}
+
+.interfaceConte__imgend {
+    width: 100%;
+    height: auto;
+    padding-left: 10px;
+    padding-bottom: 10px;
+    padding-right: 10px;
+    text-align: center;
+}
+
+/*Interface saas*/

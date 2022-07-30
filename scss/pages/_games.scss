@@ -1,0 +1,99 @@
+/*Games.Html sass*/
+.Games__body {
+    width: 100%;
+    background-color: $Fondo-color;
+
+}
+.container__gamecom {
+    padding-right: 3rem;
+    padding-left: 3rem;
+    padding-bottom: 7rem;
+    background-color: $Fondo-color;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    li {
+        border-bottom: 1px solid #DBDBDB;
+        color: #DBDBDB;
+        margin-left: auto;
+        margin-right: auto;
+        padding: 20px;
+        list-style: none
+    }
+    p {
+        font-size: 20px;
+        padding-left: 30px;
+        font-size: $Text-Description;
+    
+    }
+}
+
+.Checkcomp {
+    display: inline-block;
+    padding-right: 30px;
+    padding-left: 8px;
+
+}
+
+.box__chek {
+    display: inline-block;
+    width: 16px;
+    height: 16px;
+}
+
+.game__list {
+    padding: 20px;
+
+}
+
+.container__gamelist {
+    padding-right: 3rem;
+    padding-left: 3rem;
+    padding-bottom: 7rem;
+    background-color: $Fondo-color;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    li {
+        border-bottom: 1px solid $Box-color;
+        color: #DBDBDB;
+        margin-left: auto;
+        margin-right: auto;
+        padding: 20px;
+        list-style: none;
+        font-size: $Text-Description;
+    
+    }
+
+}
+
+#game__celeste {
+    background-color: #5c93ed;
+
+}
+
+#game__verde {
+    background-color: #47d35c;
+}
+
+#game__verdeos {
+    background-color: #94b242;
+}
+
+#game__amarillo {
+    background-color: #eacd13;
+}
+
+#game__rojo {
+    background-color: red;
+}
+
+#game__gris {
+    background-color: #828282;
+}
+
+#game__negro {
+    background-color: black;
+}
+
+/*Games.Html saas*/
