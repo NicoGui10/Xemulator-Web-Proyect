@@ -51,9 +51,8 @@ h5 {
 
 .text__carrousel2 {
   display: none; }
-
-.text__carrousel2:hover {
-  color: #9B0B34; }
+  .text__carrousel2:hover {
+    color: #9B0B34; }
 
 .Textinfo {
   font-size: 13px;
@@ -81,20 +80,18 @@ h5 {
 
 /*Titulos y textos*/
 /*Botones*/
-.button__1 {
+.button {
   text-align: center;
   padding-bottom: 34px; }
-
-.button__A {
-  border-radius: 4%;
-  color: white;
-  background-color: #9B0B34;
-  font-size: 14px;
-  border: transparent; }
-
-.button__A:hover {
-  background-color: #d60540;
-  border-color: unset; }
+  .button__A {
+    border-radius: 4%;
+    color: white;
+    background-color: #9B0B34;
+    font-size: 14px;
+    border: transparent; }
+  .button__A:hover {
+    background-color: #d60540;
+    border-color: unset; }
 
 /*Botones*/
 /* barra de navegacion + logo saas*/
@@ -539,10 +536,10 @@ html {
     bottom: 650px;
     padding-left: 75%;
     color: #fffafa; }
-  .text__carrousel2 P {
-    font-size: 22px;
-    font-family: 'Gloria Hallelujah', cursive;
-    animation: backInRight;
-    animation-duration: 2s; } }
+    .text__carrousel2 p {
+      font-size: 22px;
+      font-family: 'Gloria Hallelujah', cursive;
+      animation: backInRight;
+      animation-duration: 2s; } }
 
 /*Media Querys*/

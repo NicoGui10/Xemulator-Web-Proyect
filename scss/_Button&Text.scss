@@ -48,10 +48,9 @@ h5 {
 
 .text__carrousel2 {
     display: none;
-}
-
-.text__carrousel2:hover {
-    color: $primary-color;
+    &:hover{
+        color: $primary-color;
+    }
 }
 
 .Textinfo {
@@ -87,22 +86,20 @@ h5 {
 /*Titulos y textos*/
 
 /*Botones*/
-.button__1 {
+.button {
     text-align: center;
     padding-bottom: 34px;
-}
-
-.button__A {
-    border-radius: 4%;
-    color: rgb(255, 255, 255);
-    background-color: $primary-color;
-    font-size: 14px;
-    border: transparent;
-}
-
-.button__A:hover {
-    background-color: #d60540;
-    border-color: unset;
+    &__A {
+        border-radius: 4%;
+        color: rgb(255, 255, 255);
+        background-color: $primary-color;
+        font-size: 14px;
+        border: transparent;
+    }
+    &__A:hover{
+        background-color: #d60540;
+        border-color: unset;
+    }
 }
 
 /*Botones*/

@@ -1,8 +1,4 @@
 /*Media Querys*/
-
-
-
-
 @media screen and (min-width:638px) {
     .text__description__download {
         padding-top: 27%;
@@ -221,15 +217,12 @@
         bottom: 650px;
         padding-left: 75%;
         color: #fffafa;
-
-    }
-
-
-    .text__carrousel2 P {
-        font-size: 22px;
-        font-family: 'Gloria Hallelujah', cursive;
-        animation: backInRight;
-        animation-duration: 2s;
+        p {
+            font-size: 22px;
+            font-family: 'Gloria Hallelujah', cursive;
+            animation: backInRight;
+            animation-duration: 2s;
+        }
     }
 }
 
