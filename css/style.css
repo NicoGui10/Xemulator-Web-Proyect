@@ -86,11 +86,14 @@ h5 {
   padding-bottom: 20px; }
 
 .button__A {
-  border-radius: 50%;
+  height: 50px;
+  border-radius: 5%;
   color: white;
   background-color: #9B0B34;
   font-size: 14px;
   border: transparent; }
+  .button__A a {
+    text-align: center; }
 
 .button__A:hover {
   background-color: #d60540;

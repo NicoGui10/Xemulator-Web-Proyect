@@ -93,11 +93,15 @@ h5 {
 }
 
 .button__A {
-    border-radius: 50%;
+    height: 50px;
+    border-radius: 5%;
     color: rgb(255, 255, 255);
     background-color: $primary-color;
     font-size: 14px;
     border: transparent;
+    a{
+        text-align: center;
+    }
 }
 
 .button__A:hover {
