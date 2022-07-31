@@ -412,7 +412,9 @@ h5 {
     margin: 25px;
     height: 120px; }
   .titulo__sistemas {
-    padding-top: 35px; } }
+    padding-top: 35px; }
+  .interfaceConte__pestañas {
+    justify-content: center; } }
 
 @media screen and (min-width: 768px) {
   .text__description__download {
