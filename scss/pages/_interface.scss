@@ -5,8 +5,7 @@
     }
 
     &__pestañas {
-        display: flex;
-        flex-wrap: wrap;
+        @include flex (none, none, none, wrap);
     }
 
     &__interface {
@@ -21,26 +20,21 @@
 
     &__img {
         width: 100%;
-        padding-left: 10px;
-        padding-bottom: 10px;
-        padding-right: 10px;
+        @include box-pad(10px, 10px, 10px, none);
+       
 
     }
 }
 
 .interfaceConte__pestañasend {
-    display: flex;
-    flex-wrap: wrap;
-    text-align: center;
+    @include flex (none, center, none, wrap);
 
 }
 
 .interfaceConte__imgend {
     width: 100%;
     height: auto;
-    padding-left: 10px;
-    padding-bottom: 10px;
-    padding-right: 10px;
+    @include box-pad(10px, 10px, 10px, none);
     text-align: center;
 }
 

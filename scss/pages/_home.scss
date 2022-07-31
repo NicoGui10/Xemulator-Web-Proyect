@@ -21,15 +21,12 @@
 }
 
 .containerindex__Emuladores {
-    display: flex;
-    justify-content: center;
-    flex-wrap: wrap;
+    @include flex (none, center, none, wrap);
+
 }
 
 .cointainer__juegos {
-    display: flex;
-    justify-content: center;
-    flex-wrap: wrap;
+    @include flex (none, center, none, wrap);
 }
 
 .jueimg {

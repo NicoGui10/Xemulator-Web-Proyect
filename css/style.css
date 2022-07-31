@@ -151,7 +151,10 @@ h5 {
 .container__footer {
   background-color: #222222;
   display: flex;
-  justify-content: space-between; }
+  flex-direction: none;
+  justify-content: space-between;
+  align-items: none;
+  flex-wrap: wrap; }
   .container__footer h7 {
     color: #DBDBDB; }
   .container__footer img {
@@ -199,12 +202,16 @@ h5 {
 
 .containerindex__Emuladores {
   display: flex;
+  flex-direction: none;
   justify-content: center;
+  align-items: none;
   flex-wrap: wrap; }
 
 .cointainer__juegos {
   display: flex;
+  flex-direction: none;
   justify-content: center;
+  align-items: none;
   flex-wrap: wrap; }
 
 .jueimg {
@@ -221,10 +228,13 @@ h5 {
   padding-right: 3rem;
   padding-left: 3rem;
   padding-bottom: 7rem;
+  padding-top: none;
   background-color: #26262E;
   display: flex;
-  flex-wrap: wrap;
-  justify-content: space-around; }
+  flex-direction: none;
+  justify-content: space-around;
+  align-items: none;
+  flex-wrap: wrap; }
   .container__gamecom li {
     border-bottom: 1px solid #DBDBDB;
     color: #DBDBDB;
@@ -238,9 +248,7 @@ h5 {
     font-size: 16px; }
 
 .Checkcomp {
-  display: inline-block;
-  padding-right: 30px;
-  padding-left: 8px; }
+  display: inline-block; }
 
 .box__chek {
   display: inline-block;
@@ -254,10 +262,13 @@ h5 {
   padding-right: 3rem;
   padding-left: 3rem;
   padding-bottom: 7rem;
+  padding-top: none;
   background-color: #26262E;
   display: flex;
-  flex-wrap: wrap;
-  justify-content: space-around; }
+  flex-direction: none;
+  justify-content: space-around;
+  align-items: none;
+  flex-wrap: wrap; }
   .container__gamelist li {
     border-bottom: 1px solid #F2F2F2;
     color: #DBDBDB;
@@ -296,11 +307,15 @@ h5 {
   background-color: #F2F2F2; }
   .sistemas__container {
     display: flex;
+    flex-direction: none;
     justify-content: center;
+    align-items: none;
     flex-wrap: wrap; }
     .sistemas__container img {
       height: 130px;
+      padding-right: none;
       padding-left: 8px;
+      padding-bottom: none;
       padding-top: 5px; }
 
 /* Guia instalacion Download*/
@@ -316,6 +331,9 @@ h5 {
 
 .interfaceConte__pestañas {
   display: flex;
+  flex-direction: none;
+  justify-content: none;
+  align-items: none;
   flex-wrap: wrap; }
 
 .interfaceConte__interface {
@@ -328,21 +346,25 @@ h5 {
 
 .interfaceConte__img {
   width: 100%;
+  padding-right: 10px;
   padding-left: 10px;
   padding-bottom: 10px;
-  padding-right: 10px; }
+  padding-top: none; }
 
 .interfaceConte__pestañasend {
   display: flex;
-  flex-wrap: wrap;
-  text-align: center; }
+  flex-direction: none;
+  justify-content: center;
+  align-items: none;
+  flex-wrap: wrap; }
 
 .interfaceConte__imgend {
   width: 100%;
   height: auto;
+  padding-right: 10px;
   padding-left: 10px;
   padding-bottom: 10px;
-  padding-right: 10px;
+  padding-top: none;
   text-align: center; }
 
 /*Interface saas*/

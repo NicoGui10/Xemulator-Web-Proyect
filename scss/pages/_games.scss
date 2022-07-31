@@ -5,13 +5,10 @@
 
 }
 .container__gamecom {
-    padding-right: 3rem;
-    padding-left: 3rem;
-    padding-bottom: 7rem;
+    @include box-pad(3rem, 3rem, 7rem, none);
     background-color: $Fondo-color;
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-around;
+    @include flex (none, space-around, none, wrap);
+    
     li {
         border-bottom: 1px solid #DBDBDB;
         color: #DBDBDB;
@@ -30,9 +27,6 @@
 
 .Checkcomp {
     display: inline-block;
-    padding-right: 30px;
-    padding-left: 8px;
-
 }
 
 .box__chek {
@@ -47,13 +41,9 @@
 }
 
 .container__gamelist {
-    padding-right: 3rem;
-    padding-left: 3rem;
-    padding-bottom: 7rem;
+    @include box-pad(3rem, 3rem, 7rem, none);
     background-color: $Fondo-color;
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-around;
+    @include flex (none, space-around, none, wrap);
     li {
         border-bottom: 1px solid $Box-color;
         color: #DBDBDB;

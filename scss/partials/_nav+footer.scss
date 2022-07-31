@@ -45,8 +45,7 @@
 /* Footer*/
 .container__footer{
     background-color:#222222;
-    display: flex;
-    justify-content: space-between;
+    @include flex (none, space-between, none, wrap);
     h7{
         color: #DBDBDB;
     }
