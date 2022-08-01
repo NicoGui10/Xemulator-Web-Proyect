@@ -5,8 +5,7 @@
 
 .container__nav {
     img {
-        padding-top: 10px;
-        padding-left: 25px;
+        @include box-pad(none, 25px, none, 10px);
     }
 }
 
@@ -51,13 +50,11 @@
     }
     img{
         height: 70px;
-        padding-top: 22px;
-        padding-left: 10px;
+        @include box-pad(none, 10px, none, 22px);
     }
 }
 .container__links{
-    padding-top: 22px;
-    padding-right: 10px;
+    @include box-pad(10px, none, none, 22px);
     a{
     display: inline-block;
 	height: 30px;

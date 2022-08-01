@@ -27,8 +27,7 @@ h4 {
 
 h5 {
     font-size: $titulos-min;
-    padding-top: 35px;
-    padding-bottom: 35px;
+    @include box-pad(none, none, 35px, 35px);
     text-align: center;
 }
 

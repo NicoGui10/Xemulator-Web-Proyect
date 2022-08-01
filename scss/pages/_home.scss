@@ -3,14 +3,12 @@
     margin: auto;
     max-width: 1400px;
     &__emulatorsindex{
-        padding-top: 15px;
-        padding-bottom: 15px;
+        @include box-pad(none, none, 15px, 15px);
         background-color: $Box-color;
         margin: 25px;
     }
     &__juegosindex { 
-        padding-top: 15px;
-        padding-bottom: 15px;
+        @include box-pad(none, none, 15px, 15px);
         background-color: $Box-color;
         margin: 25px;}
 }

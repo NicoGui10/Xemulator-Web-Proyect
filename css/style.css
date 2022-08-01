@@ -54,8 +54,10 @@ h4 {
 
 h5 {
   font-size: 1.1rem;
-  padding-top: 35px;
+  padding-right: none;
+  padding-left: none;
   padding-bottom: 35px;
+  padding-top: 35px;
   text-align: center; }
 
 .text__carrousel p {
@@ -120,8 +122,10 @@ h5 {
   background-color: #26262E; }
 
 .container__nav img {
-  padding-top: 10px;
-  padding-left: 25px; }
+  padding-right: none;
+  padding-left: 25px;
+  padding-bottom: none;
+  padding-top: 10px; }
 
 .nav__hover {
   align-items: flex-end; }
@@ -159,12 +163,16 @@ h5 {
     color: #DBDBDB; }
   .container__footer img {
     height: 70px;
-    padding-top: 22px;
-    padding-left: 10px; }
+    padding-right: none;
+    padding-left: 10px;
+    padding-bottom: none;
+    padding-top: 22px; }
 
 .container__links {
-  padding-top: 22px;
-  padding-right: 10px; }
+  padding-right: 10px;
+  padding-left: none;
+  padding-bottom: none;
+  padding-top: 22px; }
   .container__links a {
     display: inline-block;
     height: 30px;
@@ -186,13 +194,17 @@ h5 {
   margin: auto;
   max-width: 1400px; }
   .containerindex__emulatorsindex {
-    padding-top: 15px;
+    padding-right: none;
+    padding-left: none;
     padding-bottom: 15px;
+    padding-top: 15px;
     background-color: #F2F2F2;
     margin: 25px; }
   .containerindex__juegosindex {
-    padding-top: 15px;
+    padding-right: none;
+    padding-left: none;
     padding-bottom: 15px;
+    padding-top: 15px;
     background-color: #F2F2F2;
     margin: 25px; }
 
@@ -427,8 +439,10 @@ h5 {
 /*Media Querys*/
 @media screen and (min-width: 638px) {
   .text__description__download {
-    padding-top: 27%;
+    padding-right: none;
+    padding-left: none;
     padding-bottom: 15%;
+    padding-top: 27%;
     font-size: 10px; }
   .sistemas img {
     margin: 25px;
@@ -440,8 +454,10 @@ h5 {
 
 @media screen and (min-width: 768px) {
   .text__description__download {
-    padding-top: 22%;
+    padding-right: none;
+    padding-left: none;
     padding-bottom: 15%;
+    padding-top: 22%;
     font-size: 11px; }
   .Video__tuto {
     height: 450px; }
@@ -457,8 +473,10 @@ h5 {
 
 @media screen and (min-width: 992px) {
   .text__description__download {
-    padding-top: 35%;
+    padding-right: none;
+    padding-left: none;
     padding-bottom: 15%;
+    padding-top: 35%;
     font-size: 15px; }
   .background__Download {
     height: 500px; }
@@ -474,8 +492,10 @@ h5 {
   .info__caract {
     font-size: 25px; }
   .titulo__sistemas {
-    padding-top: 65px;
+    padding-right: none;
+    padding-left: none;
     padding-bottom: 65px;
+    padding-top: 65px;
     font-size: 65px; }
   h5 {
     font-size: 65px; }
@@ -496,13 +516,17 @@ h5 {
   .interfaceConte__img {
     width: 35rem;
     height: 35rem;
-    padding-top: 150px;
-    padding-bottom: 150px; }
+    padding-right: none;
+    padding-left: none;
+    padding-bottom: 150px;
+    padding-top: 150px; }
   .interfaceConte__imgend {
     width: 35rem;
     height: 35rem;
-    padding-top: 150px;
-    padding-bottom: 150px; }
+    padding-right: none;
+    padding-left: none;
+    padding-bottom: 150px;
+    padding-top: 150px; }
   .interfaceConte__pestañasend {
     justify-content: space-around; }
   .button__1 {
