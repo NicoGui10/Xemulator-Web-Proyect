@@ -116,6 +116,9 @@ h5 {
     background-color: #d60540;
     border-color: unset; }
 
+#BotonDescarga {
+  padding-top: 50px; }
+
 /*Botones*/
 /* barra de navegacion + logo saas*/
 .backgruond__stily {
